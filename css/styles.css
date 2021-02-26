@@ -10017,8 +10017,8 @@ p.lead {
 }
 
 .img-profile {
-  max-width: 40vh;
-  max-height: 40vh;
+  max-width: 35vh;
+  max-height: 35vh;
   border: 1.5rem solid rgba(255, 255, 255, 0.1);
 }
 
@@ -10028,8 +10028,8 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
-  color: #fff;
+  background-color: #FFFFFF;
+  color: #154360;
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
@@ -10048,25 +10048,26 @@ p.lead {
 section.resume-section {
   display: flex;
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  justify-content: center;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
   padding-top: 5rem;
   padding-bottom: 5rem;
-  max-width: 75rem;
+  max-width: 100vw;
 }
 section.resume-section .resume-section-content {
-  width: 100%;
+  width: 75rem;
 }
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 88vh;
   }
 }
 @media (min-width: 992px) {
   section.resume-section {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    /* padding-left: 3rem;
+    padding-right: 3rem; */
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
